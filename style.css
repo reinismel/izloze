@@ -1,0 +1,7 @@
+table, th, td {
+    border: 1px solid;
+    width: 50%;
+    text-align:center;
+    padding: 15px;
+    background-color: lightblue;
+  }

@@ -14,5 +14,10 @@ for (let i=0;i<uzvaretajuSkaits;i++){
     rand=Math.floor(rand); //noapaļo uz leju
     let uzvaretajs = vardi[rand];//izvada konsolē
     //let uzvaretajs = vardi[rand];
-    rindas.innerHTML+=//pievieno +, lai pieskaititu nakamo
+    rindas.innerHTML+=`   
+    <tr>
+        <td>${i+1}</td>
+        <td>${uzvaretajs}</td>
+        </tr>`
+
 }
